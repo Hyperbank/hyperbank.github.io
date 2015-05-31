@@ -137,6 +137,29 @@ body.app img {
 
 /*
 
+SLEAVE
+
+*/
+#sleave {
+    display: block;
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 340px;
+    background: #EEE;
+    border-right: 2px solid #999;
+    height: 100%;
+    bottom: 0;
+    bottom: 0;
+    height: auto;
+}
+#hand-wrapper {
+    display: block;
+    position: relative;
+}
+
+/*
+
 RESPONSIVENESS
 
 */
@@ -151,7 +174,8 @@ RESPONSIVENESS
     }
 }
 @media only screen and (max-width : 1024px) {
-    #hand {
+    #hand, 
+    #sleave {
         display: none;
     }
     #message {
