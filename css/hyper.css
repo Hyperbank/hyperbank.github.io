@@ -94,6 +94,30 @@ HAND
     left: 0;
     background: url(../img/hand.png) no-repeat;
 }
+#social {
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    bottom: 145px;
+    left: 120px;
+    text-align: center;
+}
+#social a {
+    display: inline-block;
+    vertical-align: top;
+    text-indent: -999em;
+    position: relative;
+    height: 75px;
+    width: 44px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+#social a:hover {
+    background: #FFF;
+    border-color: #CCC;
+    opacity: 0.5;
+}
 
 /*
 
