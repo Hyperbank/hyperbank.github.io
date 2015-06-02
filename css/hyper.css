@@ -220,7 +220,7 @@ RESPONSIVENESS
         margin: 30px -30px;
     }
     #message h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
     .offside {
         padding: 10px;
@@ -244,5 +244,9 @@ RESPONSIVENESS
         padding: 10px;
         background: #3CA3D6;
         border-bottom: 2px solid #333;
+    }
+    .offside.intro p {
+        font-size: 17px;
+        line-height: 24px;
     }
 }
