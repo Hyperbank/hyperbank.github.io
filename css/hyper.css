@@ -246,7 +246,8 @@ RESPONSIVENESS
         border-bottom: 2px solid #333;
     }
     .offside.intro p {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
     }
 }
